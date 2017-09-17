@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.feuyeux.jaxrs2.atup</groupId>
 		<artifactId>atup</artifactId>
-		<version>0.0.4-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>atup-core</artifactId>
@@ -31,7 +31,8 @@
 		<!-- jersey-spring -->
 		<dependency>
 			<groupId>org.glassfish.jersey.ext</groupId>
-			<artifactId>jersey-spring3</artifactId>
+			<!-- <artifactId>jersey-spring3</artifactId> -->
+			<artifactId>jersey-spring4</artifactId>
 		</dependency>
 		<!-- spring -->
 		<dependency>
